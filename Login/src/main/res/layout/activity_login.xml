@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:padding="15dp"
+        android:textColor="#3E3E3E"
+    />
+    <EditText
+        android:id="@+id/etIdCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id Code"
+        android:layout_below="@+id/txtHeading"
+        android:layout_margin="20dp"
+        android:padding="14sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/etIdCode"
+        android:layout_margin="20dp"
+        android:padding="14sp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:layout_below="@+id/etPassword"/>
+    <TextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnLogin"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/txtAlready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="22dp"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>
