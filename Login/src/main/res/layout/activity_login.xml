@@ -17,34 +17,47 @@
         android:padding="15dp"
         android:textColor="#3E3E3E"
     />
+
     <EditText
         android:id="@+id/etIdCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Id Code"
         android:layout_below="@+id/txtHeading"
-        android:layout_margin="20dp"
-        android:padding="14sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Id Code"
         android:inputType="text"
-        />
+        android:padding="14sp"
+        android:textSize="20sp" />
+
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
         android:layout_below="@+id/etIdCode"
-        android:layout_margin="20dp"
-        android:padding="14sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Password"
         android:inputType="textPassword"
-        />
+        android:padding="14sp"
+        android:textSize="20sp" />
+
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_margin="20dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:padding="12dp"
-        android:layout_below="@+id/etPassword"/>
+        android:text="Login"
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/txtForgotPass"
         android:layout_width="wrap_content"
